@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             calcString = ""
             calcList.clear()
             calcText.setText("0")
+            fullCalcText.setText(fullCalc())
         }
 
         btnPlusMinus.setOnClickListener {
